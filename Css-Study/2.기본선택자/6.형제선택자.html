@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .orange+li{
+            color: orangered;;
+        }
+        li+li{
+            font-style: italic;
+        }
+        /* 일반 형제선택자 */
+        .red ~ li{
+            background: tomato;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="orange">어린쥐</li>
+        <li>사과</li>
+        <li>딸기</li>
+        <li class="orange">오렌지</li>
+        <li class="red">자몽</li>
+        <li>포도</li>
+        <li>레몬</li>
+    </ul>
+</body>
+</html>
