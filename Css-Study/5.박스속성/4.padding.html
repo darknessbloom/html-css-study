@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container {
+            width: 500px;
+            height: 500px;
+            background: orange;
+            margin-left: 100px;
+            padding-top: 50px;
+            padding-left: 50px;
+            /* box-sizing: border-box; */
+
+        }
+        /* 패딩,보더로 인해 박스가 커지는 것을 방지 */
+        /* box-sizing:border-borderbox */
+        .box {
+            /* box-sizing: border-box; */
+            width: 50%;
+            height: 50%;
+            background: tomato;
+            font-size: 2em;
+            color: white;
+            padding: 40px;
+        }
+
+        .card {
+            width: 250px;
+            height: 350px;
+            border: 2px solid gray;
+            margin: 50px auto;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px 10px #999;
+
+        }
+
+        .card .album{
+            height: 250px;
+            /* background: lightgrey; */
+
+
+        }
+        .card .album img {
+            /* 가로만 조절하기! */
+            width: 100%; 
+
+        }
+        .card .content {
+            /* border: 2px solid #000; */
+            padding:  20px 7px;
+            background: rgba(180,180,180,0.8);
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">안녕안녕</div>
+    </div>
+    
+    <div class="card">
+        <div class="album">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZo-uNFITmnZLh-soSx6rYMw7cL6p6sqITgZHorCEzoQ&s" alt="">
+        </div>
+        <p class="content">
+            귀여운 춘식이
+        </p>
+    </div>
+    
+</body>
+</html>
