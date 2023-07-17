@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../common.css">
+    <style>
+        header{
+            display: flex;
+            width: 100%;
+            height: 100px;
+            background-color: rgba(3, 3, 3,0.3);
+            padding: 15px 0;
+        }
+        .title {
+            margin-top: 15px;
+            width: fit-content;
+            height: fit-content;
+            border: 2px solid #000;
+            color: #fff;
+            background: #000;
+            border-radius: 10px;
+            font-size: 2em;
+            font-weight: 700;
+            margin-left: 3%;
+          
+        }
+        .nav-left{
+            width: 45%;
+            margin-left: 5%;
+            
+            
+        }
+        .nav-left .nav-left_items{
+            display: flex;
+           
+            /* border: 2px solid #000; */
+            padding: 20px;
+        }
+        .nav-left .nav-left_items .nav-left_item{
+            color: #fff;
+            /* border: 1px solid #000; */
+            font-weight: 500;
+            padding: 0 20px;
+            
+        }
+        .nav-left .nav-left_items .nav-left_item:hover{
+            color: orange;
+        }
+
+        .nav-right {
+            width: 40%;
+            margin-left: 15%;
+            float: right;
+            
+        }
+        .nav-right .nav-right_items{
+            display: flex;
+           
+            /* border: 2px solid #000; */
+            padding: 20px;
+        }
+        .nav-right .nav-right_items .nav-right_item{
+            color: #fff;
+            /* border: 1px solid #000; */
+            font-weight: 500;
+            padding: 0 20px;
+            
+        }
+        .nav-right .nav-right_items .nav-right_item .search-product{
+            border: 3px solid #fff;
+            padding: 5px 10px;
+            border-radius: 20px;
+            margin-top: -7px;
+
+        }
+        .nav-right .nav-right_items .nav-right_item .search-product:hover{
+            color: orange;
+            background: #fff;
+            font-weight: 700;
+        }
+
+    </style>
+</head>
+<body>
+    <header clearfix>
+        <div class="title">SOON9</div>
+        <nav class="nav-left">
+            <ul class="nav-left_items">
+                <li class="nav-left_item">회사소개</li>
+                <li class="nav-left_item">사업영역</li>
+                <li class="nav-left_item">투자정보</li>
+                <li class="nav-left_item">인재채용</li>
+            </ul>
+
+        </nav>
+        <nav class="nav-right">
+            <ul class="nav-right_items">
+                <li class="nav-right_item">
+            
+                    <p>알기쉬운 제품공정</p>
+                </li>
+                <li class="nav-right_item">
+                    
+                    <p>내 삶속의 회사</p>
+                </li>
+                <li class="nav-right_item">
+                    
+                    <p class="search-product">제품검색</p>
+                </li>
+                
+            </ul>
+        </nav>
+    </header>
+    
+</body>
+</html>
