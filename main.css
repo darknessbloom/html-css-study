@@ -138,3 +138,59 @@ body {
 #plans .plan-wrapper .plan .btn-group {
   margin: 20px 0;
 }
+/* key features style */
+#key-features {
+  margin: 100px auto;
+  background: #ff1b68;
+  color: #fff;
+  font-family: "Noto Sans KR", sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+#key-features .section-title {
+  /* background: orange; */
+  margin-left: -100px;
+  padding:10px;
+  margin-top: 70px;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#key-features .key-feature__list{
+  width: 60%;
+  justify-content: space-between;
+  /* background: orange; */
+  display: flex;
+  align-items:center;
+  margin-bottom: 70px;
+  
+  
+
+}
+#key-features .key-feature__list .key-feature{
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#key-features .key-feature__list .key-feature__image
+{
+  background: #fff;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  border: 3px solid #000;
+  margin-bottom: 20px;
+}
+
+#key-features .key-feature__list .key-feature__description{
+  font-weight: 700;
+  font-size: 23px;
+
+}
