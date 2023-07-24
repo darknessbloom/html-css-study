@@ -1,7 +1,8 @@
-@import url('common.css');
-@import url('include.css');
+@import url('../common.css');
+@import url('../include.css');
+@import url('main-tablet.css');
 
-
+/* 큰 와이드 화면에 1980해상도 */
 
 #product-overview {
   background: url('LESSERAFIM.jpg')
@@ -123,4 +124,31 @@ section .section-title {
   font-size: 23px;
 
 }
+
+@media screen and (max-width:1024px) {
+  #product-overview{
+    /* 띄어쓰기필수 */
+    height: calc(50vh - 97px);
+  }
+
+  #plans .plan-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#plans .plan-wrapper .plan--highlighted{
+  order: -1;
+}
+#plans .plan-wrapper .plan{
+  width: 70%;
+}
+
+#plans .plan-wrapper .plan .plan__features{
+  display: none;
+}
+
+
+  
+}
+
 
